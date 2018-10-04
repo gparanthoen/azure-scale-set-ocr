@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # This script is used as internalCustomStartupScript to setup the VM of the Azure Scale Set.
