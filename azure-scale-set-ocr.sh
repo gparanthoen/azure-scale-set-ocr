@@ -10,7 +10,7 @@
 
 # Be sure the variables below are OK for depending on your context
 
-PROACTIVE_PAMR_ROUTER_IP="37.71.194.70"
+PROACTIVE_PAMR_ROUTER_IP="62.210.124.102"
 # The URL from where to retrieve the JRE tarball
 JRE_TARBALL_URL="https://s3.amazonaws.com/ci-materials/Latest_jre/jre-8u131-linux-x64.tar.gz"
 # This repo hosts the required additional jar files for the various script engines
