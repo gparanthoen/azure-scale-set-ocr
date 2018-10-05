@@ -198,13 +198,14 @@ apt-get install -y scilab
 apt-get install -y mpi-default-bin
 
 # requirements for the ocr wf
-pip install pdf2image
-sudo apt install poppler-utils -y
+
+apt install poppler-utils -y
+apt install tesseract-ocr -y
+apt install libtesseract-dev -y
 pip install pillow
-sudo pip install pytesseract
-sudo pip install opencv-python
-sudo apt install tesseract-ocr -y
-sudo apt install libtesseract-dev -y
+pip install pytesseract
+pip install opencv-python
+pip install pdf2image
 
 ###############################
 # Let's start the ProActive node service
